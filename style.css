@@ -1,0 +1,107 @@
+/*Kelvin Chow Kelvinchow2014@gmail.com*/
+
+/* defaults for the whole website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open-sans', sans-serif;
+}	
+/* attributes for the main page*/
+.main{
+    background-color: #E7ECEF;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.product2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* or adjust to your preferred height */
+  /* Additional styles for background, padding, etc. */
+}
+.product1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* or adjust to your preferred height */
+  /* Additional styles for background, padding, etc. */
+}
+.product3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* or adjust to your preferred height */
+  /* 
+.description {
+  margin-top: 20px; /* Adjust spacing between image and description */
+}
+.product4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* or adjust to your preferred height */
+  /* 
+.description {
+  margin-top: 20px; /* Adjust spacing between image and description */
+}
+.Display img{
+  
+  max-width: 100%;
+  max-height: 108%; /* Adjust the maximum height as needed */
+  text-align: center;
+}
+.Logo img{
+  width: 50px;
+  
+  margin: 7px ;
+}
+.Phone {
+  margin-left: auto;
+}
+.Tabs img{
+	width: 25px;
+	margin: 5px ;
+	cursor: pointer;
+}
+ 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #6096BA;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    top: 0%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #A3CEF1;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
